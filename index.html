@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="imagem">
+    <img id="img" src="https://vanacco.com/wp-content/uploads/2020/06/Form-1.jpg" alt="imagem formulario">
+    </div>
+    <div id="container">
+        <h1>Formulário</h1>
+        <h2>Nesse Formulário iremos checar se o número B é maior que o número A</h2>
+        <form id="formulario">
+            <label for="numA">A:</label>
+            <input type="number" name="numA" id="numA" required> x <input type="number" name="numB" id="numB" required> <label for="numB"> B:</label>
+            <br><br><button type="submit" onclick="verificar()">Verificar</button>
+        </form>
+        <div id="mensagem"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

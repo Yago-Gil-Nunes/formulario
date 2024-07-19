@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 250px;
+    margin: 0;
+    background-color: #eff6f5;
+    color: rgb(41, 40, 40);
+}
+
+
+#img {
+    width: 280px;
+    height: 280px;
+}
+
+#mensagem {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
